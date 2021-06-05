@@ -1,4 +1,7 @@
 import images from "./gallery-items.js";
+// import onOpenModal from './openModal';
+// onOpenModal();
+
 console.log(images);
 
 
@@ -25,9 +28,12 @@ const imageString = (({ preview, original, description }) => `<li class="gallery
     />
   </a>
 </li>`);
+
 const galleryCreate = images.reduce((acc, item) => acc + imageString(item), '');
 galleryEll.insertAdjacentHTML('afterbegin', galleryCreate);
 img.classList.add('.lightbox__image')
+
+
 
 
 galleryEll.addEventListener('click', onOpenModal);
