@@ -56,6 +56,8 @@ function onModalClose(ev) {
     lightbox__image.alt = ''; 
 };
 
+
+////slider///
 const imgArray = [];
 
  images.forEach(ell => imgArray.push(ell.original));
