@@ -6,7 +6,7 @@
   "homepage": "https://doroshyk.github.io/goit-js-hw-08-gallery-parsel/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08-gallery-parsel/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08-gallery-parsel/src/"
   },
   "repository": {
     "type": "git",
